@@ -32,18 +32,19 @@
             colors: {
               clifford: "#da373d",
               btn_primary: "#E76F51",
+              bck_primary: "#FDF1EE",
             },
           },
         },
       };
     </script>
   </head>
-  <body class="font-poppins">
+  <body class="font-poppins my-12">
     <!-- Header Section -->
     <header class="md:container mx-auto">
       <!-- Navbar Section -->
       <nav>
-        <div class="navbar bg-base-100 gap-x-14">
+        <div class="navbar bg-base-100 gap-x-14 text-[#000000]">
           <div class="flex-1">
             <div class="dropdown">
               <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -64,7 +65,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow font-medium text-base"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 shadow font-medium text-base"
               >
                 <li><a>Home</a></li>
                 <li><a>Shop</a></li>
@@ -72,7 +73,7 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-4xl font-bold">daisyUI</a>
+            <a class="text-4xl font-bold">Chatgaiya Bike</a>
           </div>
           <div class="navbar-center hidden lg:flex font-medium text-base">
             <ul class="menu menu-horizontal px-1">
@@ -83,18 +84,33 @@
             </ul>
           </div>
           <div class="">
-            <a class="btn text-xl font-bold bg-btn_primary">Login</a>
+            <a class="btn text-xl font-bold bg-btn_primary text-white">Login</a>
           </div>
         </div>
       </nav>
       <!-- Slider Section -->
-      <div class="carousel w-full">
+      <div class="carousel w-full mx-2">
         <!-- Slide 1 -->
         <div id="slide1" class="carousel-item relative w-full">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.webp"
-            class="w-full"
-          />
+          <div class="flex bg-bck_primary p-24 h-[500px]">
+            <!-- slide 1 text -->
+            <div class="flex-1">
+              <h2 class="font-bold text-6xl text-[#000000] mb-5">
+                Ride-on R15 V4 <br />with Smile
+              </h2>
+              <p class="font-light text-base mb-7">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <button class="btn text-xl font-bold bg-btn_primary text-white">
+                Purchase
+              </button>
+            </div>
+            <!-- slide 1 image -->
+            <div class="flex-1">
+              <img src="images/slider/bike1.png" class="h-[320px] pl-14" />
+            </div>
+          </div>
           <div
             class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
           >

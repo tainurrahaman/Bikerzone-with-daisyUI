@@ -41,9 +41,9 @@
   </head>
   <body class="font-poppins my-12">
     <!-- Header Section -->
-    <header class="md:container mx-auto hidden">
+    <header class="mx-4 md:mx-24">
       <!-- Navbar Section -->
-      <nav>
+      <nav class="mb-4 md:mb-10">
         <div class="navbar bg-base-100 md:gap-x-14 text-[#000000]">
           <div class="flex-1">
             <div class="dropdown">
@@ -93,14 +93,17 @@
       <!-- Slider Section -->
       <div class="carousel w-full mx-2">
         <!-- Slide 1 -->
-        <div id="slide1" class="carousel-item relative w-full">
+        <div
+          id="slide1"
+          class="carousel-item relative w-full md:h-[400px] lg:h-[500px]"
+        >
           <div
-            class="flex flex-col md:flex-row bg-bck_primary px-14 py-6 md:p-24 h-[600px] md:h-[500px]"
+            class="flex flex-col md:flex-row bg-bck_primary px-14 py-6 md:p-8 lg:p-24"
           >
             <!-- slide 1 text -->
             <div class="flex-1">
               <h2
-                class="font-semibold md:font-bold text-3xl md:text-6xl text-[#000000] mb-5"
+                class="font-semibold md:font-semibold lg:font-bold text-3xl md:text-4xl lg:text-6xl text-[#000000] mb-5"
               >
                 Ride-on R15 V4 <br />with Smile
               </h2>
@@ -116,7 +119,7 @@
             <div class="flex-1">
               <img
                 src="images/slider/bike1.png"
-                class="h-[260px] md:h-[320px] pl-14"
+                class="h-[260px] md:max-h-[320px] pl-14 md:pl-2 lg:pl-14"
               />
             </div>
           </div>
@@ -128,14 +131,17 @@
           </div>
         </div>
         <!-- Slide 2 -->
-        <div id="slide2" class="carousel-item relative w-full">
+        <div
+          id="slide2"
+          class="carousel-item relative w-full md:h-[400px] lg:h-[500px]"
+        >
           <div
-            class="flex flex-col md:flex-row bg-bck_primary px-14 py-6 md:p-24 h-[600px] md:h-[500px]"
+            class="flex flex-col md:flex-row bg-bck_primary px-14 py-6 md:p-8 lg:p-24"
           >
-            <!-- slide 2 text -->
+            <!-- slide 1 text -->
             <div class="flex-1">
               <h2
-                class="font-semibold md:font-bold text-3xl md:text-6xl text-[#000000] mb-5"
+                class="font-semibold md:font-semibold lg:font-bold text-3xl md:text-4xl lg:text-6xl text-[#000000] mb-5"
               >
                 Ride-on R15 V4 <br />with Smile
               </h2>
@@ -147,11 +153,11 @@
                 Purchase
               </button>
             </div>
-            <!-- slide 2 image -->
+            <!-- slide 1 image -->
             <div class="flex-1">
               <img
                 src="images/slider/bike2.png"
-                class="h-[260px] md:h-[320px] pl-14"
+                class="h-[260px] md:max-h-[320px] pl-14 md:pl-2 lg:pl-14"
               />
             </div>
           </div>
@@ -163,14 +169,17 @@
           </div>
         </div>
         <!-- Slide 3 -->
-        <div id="slide3" class="carousel-item relative w-full">
+        <div
+          id="slide3"
+          class="carousel-item relative w-full md:h-[400px] lg:h-[500px]"
+        >
           <div
-            class="flex flex-col md:flex-row bg-bck_primary px-14 py-6 md:p-24 h-[600px] md:h-[500px]"
+            class="flex flex-col md:flex-row bg-bck_primary px-14 py-6 md:p-8 lg:p-24"
           >
-            <!-- slide 3 text -->
+            <!-- slide 1 text -->
             <div class="flex-1">
               <h2
-                class="font-semibold md:font-bold text-3xl md:text-6xl text-[#000000] mb-5"
+                class="font-semibold md:font-semibold lg:font-bold text-3xl md:text-4xl lg:text-6xl text-[#000000] mb-5"
               >
                 Ride-on R15 V4 <br />with Smile
               </h2>
@@ -182,11 +191,11 @@
                 Purchase
               </button>
             </div>
-            <!-- slide 3 image -->
+            <!-- slide 1 image -->
             <div class="flex-1">
               <img
                 src="images/slider/bike3.png"
-                class="h-[260px] md:h-[320px] pl-14"
+                class="h-[260px] md:max-h-[320px] pl-14 md:pl-2 lg:pl-14"
               />
             </div>
           </div>
@@ -507,7 +516,9 @@
       </section>
     </main>
     <!-- Footer Section -->
-    <footer class="pb-24 footer bg-[#0B0D17] text-neutral-content md:p-10">
+    <footer
+      class="pb-24 footer bg-[#0B0D17] text-neutral-content md:p-10 hidden"
+    >
       <aside class="pt-10 pl-5 md:pl-24">
         <div class="flex gap-6 mb-4">
           <p class="text-base text-[#FFFFFF]">Download Now</p>
